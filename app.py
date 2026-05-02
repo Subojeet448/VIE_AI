@@ -16,7 +16,7 @@ app.config["JSON_SORT_KEYS"] = False
 @app.route("/")
 def home():
     return jsonify({
-        "service": "AB DEVS - All-in-One API",
+        "service": "MANDAL - All-in-One API",
         "developer": "@MANDAL4482",
         "endpoints": {
             "AI Assistant": "/ai?prompt=hello",
