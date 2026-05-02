@@ -17,7 +17,7 @@ app.config["JSON_SORT_KEYS"] = False
 def home():
     return jsonify({
         "service": "AB DEVS - All-in-One API",
-        "developer": "@ab_devs",
+        "developer": "@MANDAL4482",
         "endpoints": {
             "AI Assistant": "/ai?prompt=hello",
             "Image to Prompt": "/img2txt?url=IMAGE_URL",
